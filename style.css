@@ -1,0 +1,123 @@
+body {
+    background-color: #f6eee0; /* รหัสสีแดงเป็นตัวอย่าง */
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end; /* เปลี่ยนจาก center เป็น flex-end */
+  height: 100vh;
+  margin: 0;
+}
+  
+  
+
+h1 {
+    text-align: center;
+    font-family:HATD LEMON CLUB HAVE A TYPE DAY ;
+    font-size: 25px;
+    background-color: #ffffff; /* สีพื้นหลัง */
+    padding: 10px 20px; /* ขนาดของปุ่ม */
+    border-radius: 100px;
+    border: none;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1cm;
+  }
+
+ 
+  .image-container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:  -0.25cm ;
+    width: 80%;
+    height: 50%;
+    
+    
+    
+
+  }
+  
+  #startButton {
+  background-color: #4CAF50; /* สีพื้นหลัง */
+  color: white; /* สีตัวอักษร */
+  padding: 10px 20px; /* ขนาดของปุ่ม */
+  font-size: 40px; /* ขนาดตัวอักษร */
+  font-family:HATD LEMON CLUB HAVE A TYPE DAY ;
+  border: none; /* ไม่มีเส้นขอบ */
+  border-radius: 30px; /* รูปร่างของปุ่ม */
+  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นตัวชี้ */
+  margin-top: 1cm;
+  margin-left: 9cm; 
+}
+
+#startButton:hover {
+  background-color: #45a049; /* สีพื้นหลังเมื่อเมาส์ชี้ไปที่ปุ่ม */
+}
+
+body {
+    background-color: #f6eee0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: HATD LEMON CLUB HAVE A TYPE DAY;
+    font-size: 40px;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 100px;
+    border: none;
+    width: 50%;
+    margin-bottom: 1cm;
+    margin-top: 0.5cm;
+}
+
+h2 {
+    text-align: center;
+    font-family: HATD LEMON CLUB HAVE A TYPE DAY;
+    font-size: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -0.25cm;
+}
+
+img {
+    width: 6cm;
+    height: 6cm;
+    margin: 1cm;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5cm;
+}
+
+.button {
+    display: inline-block;
+    background-color: #26cc8a;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 3.5cm;
+    
+    
+}
+
+.button:hover {
+    background-color: #ffffff;
+    
+}
+
